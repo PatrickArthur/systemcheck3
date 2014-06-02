@@ -26,3 +26,10 @@ position:absolute;
 left:5px;
 }
 
+
+h3.logo {
+  font-family: "Euphemia UCAS";
+  font-size: 200px !important;
+  font-weight: normal;
+  color: #222222;
+}
