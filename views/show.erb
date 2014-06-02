@@ -1,0 +1,39 @@
+<h3><%= @recipe [1]['name'] %></h3>
+
+<tbody>
+  <tr>
+<td><a href="<%= "/recipes" %>">Back to Recipes Listing</a></td>
+</tr>
+</tbody>
+
+<hr>
+
+<link rel="stylesheet" href="/styles.css">
+
+
+
+
+
+<tbody>
+  <tr class='row1'>
+<td><b>Description</b>&nbsp<%= @recipe [1]['description'] %></br></br></td>
+</tr>
+ <tr class='row2'>
+<td><b>Instructions</b>&nbsp<%= @recipe [1]['instructions'] %></br></br></td>
+</tr>
+ <tr class='row3'>
+<td><b>Igredients</b>&nbsp<% @recipe.each do |x| %></br>
+  <tr><%= x['ingredients'] %></td></tr>
+<% end %>
+</tr>
+</tbody>
+
+
+
+
+
+
+
+
+
+

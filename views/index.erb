@@ -1,0 +1,25 @@
+<h3>List of Recipes</h3>
+
+<td><a href="<%= "/recipes" %>">Recipe Listing</a></td>
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Recipes</th>
+       <hr>
+    </tr>
+  </thead>
+
+  <tbody>
+
+
+
+<tbody>
+  <tr>
+ <% @query2.each do |recipe| %>
+    <td><a href="<%= "/recipes/#{recipe['id']}" %>"><%= recipe["name"] %></a></td>
+  </tr>
+ <% end %>
+</tbody>
+
