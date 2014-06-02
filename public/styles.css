@@ -19,17 +19,11 @@ tr.row4 td {
     padding-top: 40px;
 }
 
-
-.pager
-{
-position:absolute;
-left:5px;
+body {
+   background:red !important;
 }
 
 
-h3.logo {
-  font-family: "Euphemia UCAS";
-  font-size: 200px !important;
-  font-weight: normal;
-  color: #222222;
-}
+
+
+
