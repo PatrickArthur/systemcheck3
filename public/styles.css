@@ -19,10 +19,9 @@ tr.row4 td {
     padding-top: 40px;
 }
 
-body {
-   background:red !important;
+#wrapper {
+  border: 1px #e4e4e4 solid;
 }
-
 
 
 
