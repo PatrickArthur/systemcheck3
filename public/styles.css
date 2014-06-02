@@ -20,3 +20,9 @@ tr.row4 td {
 }
 
 
+.pager
+{
+position:absolute;
+left:5px;
+}
+
